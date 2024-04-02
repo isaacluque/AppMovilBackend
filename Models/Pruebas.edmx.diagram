@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="17e200cb1c014fed9364f0720d413bf5" Name="Diagram1">
+        <EntityTypeShape EntityType="PruebasModel.Pruebas_EmailsLog" Width="1.5" PointX="7.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PruebasModel.Pruebas_EmpleadosControlHoras" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PruebasModel.Pruebas_EstadoUsuario" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PruebasModel.Pruebas_PRS" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PruebasModel.Pruebas_SolicitarToken_CambioPassword" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PruebasModel.sysdiagram" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PruebasModel.Pruebas_EMP" Width="1.5" PointX="3" PointY="1" />
+        <AssociationConnector Association="PruebasModel.FK_Pruebas_EMP_Pruebas_EstadoUsuario" />
+        <AssociationConnector Association="PruebasModel.FK_Pruebas_EMP_Pruebas_PRS" />
+        <AssociationConnector Association="PruebasModel.FK_Pruebas_EmpleadosControlHoras_Pruebas_EMP" />
+        <AssociationConnector Association="PruebasModel.FK_Pruebas_SolicitarToken_CambioPassword_Pruebas_EMP" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
